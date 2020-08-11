@@ -1,0 +1,92 @@
+body { 
+    background-color: #9ef7de;
+    color:purple;
+    font-family:Tahoma, sans-serif;
+    font-size:16px;
+}
+
+.border {
+    border:1px solid grey;
+    padding:5px;
+    border-radius:10px;
+}
+
+h1 {
+    font-size:30px;
+    font-family:Arial;
+}
+
+h2 {
+    font-size:20px;
+    font-family:Arial;
+}
+.grotere-letter {
+    font-size:20px;
+}
+
+header {
+    width: 280px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    border: 2px double purple;
+    margin: 0 auto;
+}
+
+main {
+    width: 280px;
+    height: 700px;
+    padding: 10px 20px;
+    border: 2px dotted purple;
+    margin: 0 auto;
+}
+
+ul.navigatie-horizontaal {
+    list-style-type: none;
+}
+
+ul.navigatie-horizontaal li {
+    display: inline;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    ul.navigatie-horizontaal li {
+            display: block
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        width: 728px;
+    }
+    main {
+        width: 728px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+    background-color: whitesmoke;
+    color: black;
+    font-size:12px;
+    line-height: 30px;
+}
+h1 {
+    font-size:20px;
+}
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.blogpost { 
+      width:200px; 
+      border: 1px dashed purple; 
+}
